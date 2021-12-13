@@ -1,0 +1,120 @@
+.abs-0 {
+  position: absolute; left: 0%; top: 0px;
+}
+.abs-1 {
+  position: absolute; left: 34.228%; top: 0px;  
+}
+.abs-2 {
+  position: absolute; left: 68.4559%; top: 0px;
+}
+.abs-3 {
+  position: absolute; left: 0%; top: 563px;
+}
+.abs-4 {
+  position: absolute; left: 34.228%; top: 718px;
+}
+.abs-5 {
+  position: absolute; left: 68.4559%; top: 463px;
+}
+.abs-6 {
+  position: relative; height: 1454px;
+}
+.abs-7 {
+  --i:2
+}
+.abs-8 {
+  --i:3
+}
+.abs-9 {
+  --i:4
+}
+.abs-10 {
+  --i:5
+}
+.abs-11 {
+  --i:6
+}
+.abs-12 {
+  --i:7
+}
+.abs-13 {
+  --m:7;--tan:0.241
+}
+.abs-14 {
+  --i:1
+}
+
+/* .carousel-item {
+  background-image: url("../public/images/cardpreview01.jpg");
+  animation-name: flow;
+  animation-duration: 4s;
+  width: 500px;
+  height: 500px;
+}
+
+@keyframes example {
+  from {background-image: url("../public/images/cardpreview02.jpg")}
+  to {background-image: url("../public/images/cardpreview01.jpg")}
+} */
+
+.plus {
+  display: none;
+}
+
+.wallet-adapter-button {
+  padding: 0 6px !important;
+  line-height: 14px !important;
+}
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide img {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+* p {
+  font-size: 16px;
+}
+
+.modal-content {
+  -webkit-box-shadow: -1px 1px 5px 9px #333;
+  -moz-box-shadow: -1px 1px 5px 9px #333;
+  box-shadow: -1px 1px 50px 1px #333;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  background: #4e44ce !important;
+}
+
+.modal-body h5 {
+  text-align: center;
+  color:white;
+}
+.modal-body img {
+  width: auto;
+  height: 150px;
+}
+@media only screen and (max-width: 600px) {
+
+  .grid-item {
+    width:100%;
+  }
+
+  .plus {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
